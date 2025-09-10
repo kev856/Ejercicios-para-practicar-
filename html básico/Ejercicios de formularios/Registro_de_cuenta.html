@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+</head>
+
+
+<body>
+<h1>Registro de cuenta</h1>
+<form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Kevin Marriaga" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Contraseña:</label><br>
+                <input type="password" id="password" name="password" minlength="8" required><br><br>
+
+                <label for="date">Fecha de nacimiento:</label><br>
+                <input type="date" id="date" name="date" ><br><br>
+
+                <label>Género:</label><br>
+                <label><input type="radio" name="genero" value="masculino">Masculino</label>
+                <label><input type="radio" name="genero" value="femenino">Femenino</label><br><br>
+
+                <label>Acepto los términos y condiciones <input type="checkbox" name="terminos_y_condiciones" required></label><br><br>
+
+                <input type="submit" value="Registrar">
+</form>
+</body>
+</html>
