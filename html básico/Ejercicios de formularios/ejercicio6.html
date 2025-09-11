@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+
+<body>
+<h1>Registro al curso online</h1>
+<form>
+        <label>Nombre de usuario: <br> <input type="text" name="nombre" placeholder="Juan Castillo" required></label><br><br>
+
+        <label>Correo electrónico: <br> <input type="email" name="email" required></label><br><br>
+
+        <label>Contraseña: <br> <input type="password" name="contraseña" minlength="6" required></label><br><br>
+
+        <label>Número de telefono: <br> <input type="number" name="telefono" min="1000000000" max="999999999999999"></label><br><br>
+
+        <label>Fecha de nacimiento: <br> <input type="date" name="nacimiento" required></label><br><br>
+
+        <label>Nivel del curso</label><br>
+        <label><input type="radio" name="nivel" value="basico" required>Básico</label><br>
+        <label><input type="radio" name="nivel" value="intermedio">Intermedio</label><br>
+        <label><input type="radio" name="nivel" value="avanzado">Avanzado</label><br><br>
+
+        <label>Temas de interés</label><br>
+        <label><input type="checkbox" name="intereses" value="html">HTML</label><br>
+        <label><input type="checkbox" name="intereses" value="css">CSS</label><br>
+        <label><input type="checkbox" name="intereses" value="javascript">Javascript</label><br><br>
+
+        <label>Subir foto de perfil: <br> <input type="file" name="foto" accept=".jpg,.jpeg,.png"></label><br><br>
+
+        <label>Acepto las politicas de privacidad <input type="checkbox" required></label><br><br>
+
+        <input type="submit" value="Registrarme">
+</form>
+</body>
+</html>
