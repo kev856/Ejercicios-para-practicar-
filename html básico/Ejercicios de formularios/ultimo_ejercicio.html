@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+
+<body>
+<h1>Inscripción curso de música</h1>
+<form>
+        <label>Nombre completo: <br> <input type="text" name="nombre" placeholder="Kevin Marriaga" required></label><br><br>
+
+        <label>Correo electrónico: <br> <input type="email" name="email" required></label><br><br>
+
+        <label>Contraseña: <br> <input type="password" name="contraseña" minlength="6" maxlength="15" required></label><br><br>
+
+        <label>Edad: <br> <input type="number" name="edad" min="10" max="60"></label><br><br>
+
+        <label>Fecha de inicio de curso: <br> <input type="date" name="fecha_inicio" required></label><br><br>
+
+        <label>Instrumento principal:</label><br>
+        <label><input type="radio" name="instrumento_principal" value="bateria" required>Batería</label><br>
+        <label><input type="radio" name="instrumento_principal" value="tambor">Tambor</label><br>
+        <label><input type="radio" name="instrumento_principal" value="guitarra">Guitarra</label><br><br>
+
+        <label>Géneros favoritos:</label><br>
+        <label><input type="checkbox" name="genero_favorito" value="salsa">Salsa</label><br>
+        <label><input type="checkbox" name="genero_favorito" value="merengue">Merengue</label><br>
+        <label><input type="checkbox" name="genero_favorito" value="bachata">Bachata</label><br><br>
+
+        <label>Archivo de audición: <br> <input type="file" name="audio" accept=".mp3,.wav"></label><br><br>
+
+        <label>Acepto los términos y condiciones <input type="checkbox" name="terminos" required></label><br><br>
+
+        <input type="submit" value="Enviar">
+</form>
+</body>
+</html>

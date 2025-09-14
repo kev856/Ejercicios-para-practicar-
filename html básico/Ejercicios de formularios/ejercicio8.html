@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+
+<body>
+<h1>Registro torneo</h1>
+<form>
+        <label>Nombre de usuario: <br> <input type="text" name="nombre" placeholder="Kevin Marriaga" required></label><br><br>
+
+        <label>Correo electrónico: <br> <input type="email" name="email" required></label><br><br>
+
+        <label>Contraseña: <br> <input type="password" name="contraseña" minlength="6" maxlength="12" required></label><br><br>
+
+        <label>Edad: <br> <input type="number" name="edad" min="12" max="50" required></label><br><br>
+
+        <label>Fecha de inscripción: <br> <input type="date" name="fecha" required></label><br><br>
+
+        <label>Plataforma de juego:</label><br>
+        <label><input type="radio" name="plataforma" value="pc" required>Pc</label><br>
+        <label><input type="radio" name="plataforma" value="playstation">Playstation</label><br>
+        <label><input type="radio" name="plataforma" value="xbox">Xbox</label><br><br>
+
+        <label>Juegos preferidos</label><br>
+        <label><input type="checkbox" name="preferencias" value="fortnite">Fortnite</label><br>
+        <label><input type="checkbox" name="preferencias" value="fifa">Fifa</label><br>
+        <label><input type="checkbox" name="preferencias" value="call_of_duty">Call of duty</label><br><br>
+
+        <label>Avatar de jugador: <br> <input type="file" name="avatar" accept=".jpg,.png" required></label><br><br>
+
+        <label>Acepto las reglas del torneo <input type="checkbox" name="aceptar_reglas" required></label><br><br>
+
+        <input type="submit" value="Enviar">
+</form>
+
+
+
+
+        
+
+</body>
+</html>
