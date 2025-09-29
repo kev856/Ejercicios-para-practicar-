@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reservar mesa</title>
+</head>
+
+<body>
+<h1>Reservar mesa</h1>
+<form>
+        <label>Nombre completo: <br> <input type="text" name="nombre" placeholder="Kevin Marriaga" required></label><br><br>
+
+        <label>Número de personas: <br> <input type="number" name="numero_de_personas" min="1" max="10" required></label><br><br>
+
+        <label>Fecha de la reserva: <br> <input type="datetime-local" name="fecha_y_hora" required></label><br><br>
+
+        <label>Número de teléfono: <br> <input type="number" name="telefono" min="1000000000" max="9999999999" required></label><br><br>
+
+        <label>Opciones de ubicación</label><br>
+        <label><input type="radio" name="ubicacion" value="terraza" required>Terraza</label><br>
+        <label><input type="radio" name="ubicacion" value="interior">Interior</label><br>
+        <label><input type="radio" name="ubicacion" value="barra">Barra</label><br><br>
+
+        <label>Comentarios adicionales: <br> <textarea name="adicional" rows="4" cols="50" placeholder="Ejemplo: Traer pastel de cumpleaños"></textarea></label><br><br>
+
+        <input type="submit" value="Enviar">
+</form>
+</body>
+</html>

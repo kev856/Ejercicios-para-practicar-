@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+
+<body>
+<h1>Registro para el curso online</h1>
+<form>
+        <label>Nombre completo: <br> <input type="text" name="nombre" placeholder="Kevin Marriaga" required></label><br><br>
+
+        <label>Correo electrónico: <br> <input type="email" name="email" placeholder="kev34@gmail.com" required></label><br><br>
+
+        <label>Número de teléfono: <br> <input type="number" name="telefono" min="1000000000" max="9999999999"></label><br><br>
+
+        <label>Selección del curso:</label><br>
+        <label><input type="radio" name="curso" value="programacion" required>Programación</label><br>
+        <label><input type="radio" name="curso" value="diseño">Diseño</label><br>
+        <label><input type="radio" name="curso" value="marketing">Marketing</label><br><br>
+
+        <label>Modalidad:</label><br>
+        <label><input type="radio" name="modalidad" value="virtual" required>Virtual</label><br>
+        <label><input type="radio" name="modalidad" value="presencial">Presencial</label><br><br>
+
+        <label>Fecha de inicio: <br> <input type="date" name="fecha_inicio" required></label><br><br>
+
+        <label>Subir comprobante de pago: <br> <input type="file" name="comprobante" accept=".pdf, .jpg" required></label><br><br>
+
+        <label><input type="checkbox" name="terminos" value="terminos" required>Aceptar términos y condiciones</label><br><br>
+
+        <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
