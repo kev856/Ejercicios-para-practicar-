@@ -1,0 +1,68 @@
+.color1{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(255, 0, 0);
+}
+
+.color2{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(200, 200, 200);
+}
+
+.color3{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+}
+
+.imagen1{
+        width: 1000px;
+        height: 1000px;
+        background-image: url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/face_react/ad_personam/2024/gallery/ad_personam_01_m.jpg");
+        background-size: cover;
+        background-position: center;
+}
+
+.imagen2{
+        width: 750px;
+        height: 600px;
+        background-image: url("https://res.cloudinary.com/unix-center/image/upload/c_limit,dpr_3.0,f_auto,fl_progressive,g_center,h_580,q_75,w_906/mhkkhz8qe34ruhsi4xgq.jpg");
+        background-size: contain;
+        background-position: bottom;
+}
+
+.imagen3{
+        width: 750px;
+        height: 600px;
+        background-image: url("https://cdn.motor1.com/images/mgl/vxZ8Nb/s1/lamborghini-huracan-stj.jpg");
+        background-size: 750px 600px;
+        background-position: left;
+}
+
+.repeat1{
+        width: 500px;
+        height: 500px;
+        background-image: url("https://www.pngkey.com/png/detail/14-148130_minion-imagenes-de-100x100-pixeles.png");
+        background-size: 100px 100px;
+        margin: 20px;
+}
+
+.repeat2{
+        width: 500px;
+        height: 500px;
+        background-color: rgb(0, 0, 0);
+        background-image: url("https://www.pngkey.com/png/detail/14-148130_minion-imagenes-de-100x100-pixeles.png");
+        background-size: 100px 100px;
+        background-repeat: repeat-x;
+        margin: 20px;
+}
+
+.repeat3{
+        width: 500px;
+        height: 500px;
+        background-image: url("https://www.pngkey.com/png/detail/14-148130_minion-imagenes-de-100x100-pixeles.png");
+        background-size: 100px 100px;
+        background-repeat: repeat-y;
+        margin: 20px;
+}
