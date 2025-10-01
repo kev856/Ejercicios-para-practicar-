@@ -1,5 +1,123 @@
 body{
-        background-image: url("https://www.travelandleisure.com/thmb/6LKBcNi2iFSiBdTpp_4xTqHenfg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-banff-national-park-BEAUTYCANADA0623-fc3b0496f842412f9a8299f8ffd18499.jpg");
+        background-image: url("https://images.unsplash.com/photo-1689308271305-58e75832289b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8");
+        background-attachment: fixed;
+}
+
+.ej1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin: 20px;
+}
+
+.ej2{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        margin: 20px;
+}
+
+.ej3-1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: auto;
+        margin: 20px;
+}
+
+.ej3-2{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: cover;
+        margin: 20px;
+}
+
+.ej3-3{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: contain;
+        margin: 20px;
+}
+
+.ej4-1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: cover;
+        background-position: center;
+        margin: 20px;
+}
+
+.ej4-2{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: cover;
+        background-position: left top;
+        margin: 20px;
+}
+
+.ej4-3{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: cover;
+        background-position: 100px 50px;
+        margin: 20px;
+}
+
+.ej5-1{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: contain;
+        background-repeat: repeat;
+        margin: 20px;
+}
+
+.ej5-2{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
         background-size: contain;
         background-repeat: no-repeat;
+        margin: 20px;
+}
+
+.ej5-3{
+        width: 800px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: contain;
+        background-repeat: repeat-x;
+        margin: 20px;
+}
+
+.ej5-4{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        background-image: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480");
+        background-size: contain;
+        background-repeat: repeat-y;
+        margin: 20px;
+}
+
+.ej7{
+        width: 200px;
+        height: 200px;
+        background: url("https://www.shutterstock.com/shutterstock/videos/1021521700/thumb/8.jpg?ip=x480") center /cover no-repeat rgb(90, 90, 90)  ;
+        margin: 20px;
 }
